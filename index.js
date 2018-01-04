@@ -78,4 +78,4 @@ const waitCondition = (condition, { initialInterval = 100, attemptsBeforeSlowing
   })
 }
 
-export default waitCondition
+module.exports = waitCondition
