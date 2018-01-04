@@ -30,14 +30,18 @@ waitCondition(condition)
   .catch((reason) => { /* will be called whether the condition causes an error or after timeout */ })
 ```
 
+
 ## options
 
+```
 // default values
 waitCondition(condition, {
   initialInterval: 100, // milliseconds
   attemptsBeforeSlowing: 20,
   timeout: 60000, // milliseconds
 })
+```
+
 
 ## how it works
 
@@ -55,6 +59,6 @@ It starts checking the condition every `initialInterval` milliseconds. Every tim
 
 The condition is considered met when the `done` property is `true`.
 
-Checks continously for the condition and:
+Checks continuously for the condition and:
   - resolves the Promise with the `value` property of `condition` result, if condition is met before timeout
-  - rejects the Promise if the condition is not met before timeout, or when an error occurs while evaluating the condition
+  - rejects the Promise if the condition is not met before timeout, or when an error occurs while evaluating the condition, and specifies the reason for rejection
