@@ -1,0 +1,22 @@
+{
+  "name": "wait-condition",
+  "version": "1.0.0",
+  "description": "Resolve a promise when a condition is met",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaeleyng/wait-condition.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "rafaeleyng@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaeleyng/wait-condition/issues"
+  },
+  "homepage": "https://github.com/rafaeleyng/wait-condition#readme"
+}
