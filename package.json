@@ -1,6 +1,6 @@
 {
   "name": "wait-condition",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resolve a promise when a condition is met",
   "main": "lib/index.js",
   "scripts": {
